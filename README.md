@@ -1,6 +1,6 @@
 # Hello World API
 
-A simple Flask-based API that returns a "Hello, World!" message.
+A simple Flask-based API that returns a "Hello, World!" message. This is to practice containerising a simple application using Docker.
 
 ## Run Locally
 1. Install dependencies: `pip install -r requirements.txt`
