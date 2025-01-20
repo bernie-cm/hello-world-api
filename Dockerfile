@@ -1,6 +1,9 @@
 # Use the official Python image
 FROM python:3.9-slim
 
+# Install Python
+RUN apt-get update && apt-get install -y python3
+
 # Set the working directory
 WORKDIR /app
 
