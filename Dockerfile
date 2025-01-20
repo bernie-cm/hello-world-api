@@ -9,7 +9,7 @@ COPY requirements.txt /app
 RUN pip install -r requirements.txt
 
 # Copy the application files to the container
-COPY app.py /app
+COPY /app/app.py /app
 
 # Expose the port the app will run on
 EXPOSE 5000
